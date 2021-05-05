@@ -1,12 +1,14 @@
-import React from "react"
-import image from "../background.jpg"
+import React from "react";
+import image from "../background.jpg";
+import logo from "../logo.png"
+
 
 export default function Home(){
     return (
     <main>
         <img src={image} alt="Coding Background" className="absolute object -cover w-full h-full"/>
-        <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-            <h1 className="welcome-text text-6xl font-bold cursive leading-none lg:leading-snug home-name">Hello, I'm Cali.</h1>
+        <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">  
+            <img src={logo} className="logo"/>
         </section>
     </main>
 )
