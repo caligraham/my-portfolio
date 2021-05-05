@@ -6,10 +6,10 @@ import BlockContent from "@sanity/block-content-to-react";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
-    return builder.image(source)
+    return builder.image(source);
 }
 
-export default function SinglePost(){
+export default function SinglePost() {
     const [singlePost, setSinglePost] = useState(null);
     const { slug } = useParams();
 
@@ -64,13 +64,8 @@ export default function SinglePost(){
                     blocks={singlePost.body} 
                     projectId="84zfrs3w" 
                     dataset="production" />
-                </div>
-            </article>
+                </div>{" "}
+            </article>{" "}
         </main>
     );
-
-
-
-
-    return <h1>SinglePost Page!</h1>
 }

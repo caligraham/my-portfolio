@@ -13,6 +13,35 @@
   border-radius: 5px;
 }
 
+.welcome-text {
+  color: #39ff14
+}
+
 .home-name {
   font-size: 150px;
+}
+
+.skills-span{
+  border-left-color: #169c2c;
+  border-left-width: 8px;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  background-color: #b3ccbf;
+  background: rgba(8, 153, 27, 0.5);
+  padding: 4px;
+}
+
+.main-skills{
+  background-color: #b3ccbf;
+}
+
+.skillsh1{
+  color: #21c049;
+}
+
+.skillsh2{
+  color: #1c8035
 }
