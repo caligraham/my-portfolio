@@ -1,9 +1,9 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap");
 
 .cursive {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Pacifico', cursive;
   font-weight: 700;
 }
 
@@ -44,4 +44,9 @@
 
 .skillsh2{
   color: #1c8035
+}
+
+.logo {
+  height: 300px;
+  width: 1000px; 
 }
