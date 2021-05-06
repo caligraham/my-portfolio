@@ -52,5 +52,6 @@
 }
 
 .my-pic {
-  border-radius: 80%
+  border-radius: 80%;
+  width: 200px;
 }
