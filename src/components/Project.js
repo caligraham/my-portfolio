@@ -26,7 +26,7 @@ export default function Project() {
             <section className="container mx-auto">
                 <h1 className="h1 text-5xl flex justify-center cursive">My Projects</h1>
                 <h2 className="h2 text-lg text-gray-600 flex justify-center mb-12"><br />Welcome to my projects page!</h2>
-                <section className="grid grid-cols-2 gap-8">
+                <section className="grid md:grid-cols-2 gap-8">
                     {projectData && projectData.map((project, index) => (
                         <article className="relative rounded-lg shadow-xl bg-white p-16">
                             <h3 className=" text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
