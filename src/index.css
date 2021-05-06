@@ -50,3 +50,7 @@
   height: 300px;
   width: 1000px; 
 }
+
+.my-pic {
+  border-radius: 80%
+}
