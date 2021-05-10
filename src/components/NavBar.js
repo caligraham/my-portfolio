@@ -14,7 +14,7 @@ export default function NavBar() {
                     <NavLink to="/project" className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800">
                         Projects
                     </NavLink>
-                    <NavLink to="/post" activeClassName="text-green-100 bg-green-700" className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800">
+                    <NavLink to="/skill" activeClassName="text-green-100 bg-green-700" className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800">
                         Skills
                     </NavLink>
                     <NavLink to="/about" className="inline-flex items-center py-3 px-3 my-6 rounded text-green-200 hover:text-green-800">
