@@ -25,6 +25,7 @@ export default function NavBar() {
                     <SocialIcon url="https://github.com/caligraham" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width: 35}}/>
                     <SocialIcon url="https://www.linkedin.com/in/caligraham/" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width: 35}}/>
                     <SocialIcon url="https://medium.com/@caligraham" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width: 35}}/>
+                    
                 </div>
             </div>
         </header>

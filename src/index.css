@@ -52,6 +52,9 @@
 }
 
 .my-pic {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #b3ccbf;
   border-radius: 80%;
   width: 200px;
 }
